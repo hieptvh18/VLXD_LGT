@@ -5,3 +5,13 @@
 img.logo-main__img{
     width: 100px;
 }
+
+/* responsive */
+@media (max-width: 767px) {
+    .elementor-463 .elementor-element.elementor-element-039eed7 {
+        --margin-top: 0px;
+        /* --margin-bottom: -65px; */
+        --margin-left: 0px;
+        --margin-right: 0px;
+    }
+}
