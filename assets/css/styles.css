@@ -14,4 +14,13 @@ img.logo-main__img{
         --margin-left: 0px;
         --margin-right: 0px;
     }
+
+    .elementor-8 .elementor-element.elementor-element-53a8512 .elementor-heading-title{
+        font-size: 40px !important;
+    }
+
+    /* logo */
+    .jkit-nav-identity-panel .jkit-nav-logo img{
+        width: 100px !important;
+    }
 }
