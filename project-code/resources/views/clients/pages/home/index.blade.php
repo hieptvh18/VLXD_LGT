@@ -1085,19 +1085,19 @@
                     "background_slideshow_gallery": [
                         {
                             "id": "41",
-                            "url": "https://www.wordpress-dev.codeinsolution.com/brickon/wp-content/uploads/sites/65/2024/12/construction-site-with-building-cranes.jpg"
+                            "url": "{{ asset('assets/img/construction-site-with-building-cranes.jpg') }}"
                         },
                         {
                             "id": "40",
-                            "url": "https://www.wordpress-dev.codeinsolution.com/brickon/wp-content/uploads/sites/65/2024/12/construction-2.jpg"
+                            "url": "{{ asset('assets/img/construction-2.jpg') }}"
                         },
                         {
                             "id": "39",
-                            "url": "https://www.wordpress-dev.codeinsolution.com/brickon/wp-content/uploads/sites/65/2024/12/construction-1.jpg"
+                            "url": "{{ asset('assets/img/construction-1.jpg') }}"
                         },
                         {
                             "id": "38",
-                            "url": "https://www.wordpress-dev.codeinsolution.com/brickon/wp-content/uploads/sites/65/2024/12/construction.jpg"
+                            "url": "{{ asset('assets/img/construction.jpg') }}"
                         }
                     ],
                     "background_slideshow_lazyload": "yes",
@@ -1197,12 +1197,11 @@
                                     <div class=fun-fact-inner>
                                         <div class="content">
                                             <div class="number-wrapper"><span class="prefix"></span>
-                                                <span class="number" data-value="1600"
+                                                <span class="number" data-value="160"
                                                     data-animation-duration="3500">0</span>
-                                                <span class="suffix">K</span><sup class="super">+</sup>
+                                                <span class="suffix"></span><sup class="super">+</sup>
                                             </div>
-                                            <h2 class="title">Successfully completed projects across various sectors.
-                                            </h2>
+                                            <h2 class="title">Hoàn thành thành công các dự án trong nhiều lĩnh vực khác nhau.</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -1223,7 +1222,7 @@
                                                     data-animation-duration="3500">0</span>
                                                 <span class="suffix"></span><sup class="super">%</sup>
                                             </div>
-                                            <h2 class="title">Building a greener future with every project.</h2>
+                                            <h2 class="title">Xây dựng tương lai xanh hơn với mọi dự án.</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -1240,12 +1239,11 @@
                                     class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_8_6_67ee61c746333">
                                     <div class="jkit-icon-box-wrapper hover-from-left">
                                         <div class="icon-box icon-box-body">
-                                            <h2 class="title">Crafting Quality, Building Trust.</h2>
+                                            <h2 class="title">Tạo ra chất lượng, xây dựng niềm tin.</h2>
                                             <div class="icon-box-button ">
                                                 <div class="btn-wrapper icon-position-after">
                                                     <a href="#" class="icon-box-link"
-                                                        aria-label="Our Projects">Our
-                                                        Projects<i aria-hidden="true"
+                                                        aria-label="Our Projects">Dự án của chúng tôi<i aria-hidden="true"
                                                             class="jki jki-right-arrow2-light"></i></a>
                                                 </div>
                                             </div>
@@ -1258,6 +1256,7 @@
                     </div>
                 </div>
             </div>
+            {{-- about us block --}}
             <div class="elementor-element elementor-element-7cf581c e-flex e-con-boxed e-con e-parent"
                 data-id="7cf581c" data-element_type="container">
                 <div class="e-con-inner">
@@ -1265,7 +1264,7 @@
                         data-id="0ad16d6" data-element_type="container">
                         <div class="elementor-element elementor-element-3ae1c9e e-con-full e-flex e-con e-child"
                             data-id="3ae1c9e" data-element_type="container"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                            data-settings="{"background_background":"classic"}">
                             <div class="elementor-element elementor-element-b65a876 elementor-widget elementor-widget-spacer"
                                 data-id="b65a876" data-element_type="widget" data-widget_type="spacer.default">
                                 <div class="elementor-widget-container">
@@ -1281,23 +1280,20 @@
                         <div class="elementor-element elementor-element-15ce6b7 elementor-widget elementor-widget-heading"
                             data-id="15ce6b7" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">About Us</h2>
+                                <h2 class="elementor-heading-title elementor-size-default">Về Chúng Tôi</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-35f2761 elementor-widget elementor-widget-heading"
                             data-id="35f2761" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">leading the Way In
-                                    Exceptional Construction</h2>
+                                <h2 class="elementor-heading-title elementor-size-default">Dẫn Đầu Trong
+                                    Xây Dựng Xuất Sắc</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-9244d3c elementor-widget elementor-widget-text-editor"
                             data-id="9244d3c" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                At Brickon, we’re more than just builders – we’re visionaries dedicated to transforming
-                                spaces with innovation and precision. For over 10, we’ve led the industry with a
-                                commitment to quality and an eye for detail, working on diverse projects from
-                                skyscrapers to residential developments. </div>
+                                Tại Brickon, chúng tôi không chỉ là những nhà xây dựng – chúng tôi là những người có tầm nhìn, tận tụy trong việc biến đổi không gian với sự đổi mới và chính xác.</div>
                         </div>
                         <div class="elementor-element elementor-element-ee97f25 e-con-full e-flex e-con e-child"
                             data-id="ee97f25" data-element_type="container">
@@ -1310,11 +1306,11 @@
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile- jeg_module_8_7_67ee61c747f7a">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title"><span class="style-color"><span> Experience
-                                                            Engineers</span></span></h2>
+                                                <h2 class="heading-title"><span class="style-color"><span> Kỹ Sư
+                                                            Kinh Nghiệm</span></span></h2>
                                             </div>
-                                            <div class="heading-section-description">Knowledge and practical skills
-                                                enable them to tackle challenges from start to finish</div>
+                                            <div class="heading-section-description">Kiến thức và kỹ năng thực tiễn
+                                                giúp họ giải quyết các thách thức từ đầu đến cuối</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1325,11 +1321,11 @@
                                         <div
                                             class="jeg-elementor-kit jkit-heading  align- align-tablet- align-mobile- jeg_module_8_8_67ee61c7485bd">
                                             <div class="heading-section-title  display-inline-block">
-                                                <h2 class="heading-title"><span class="style-color"><span> Modern
-                                                            Technology</span></span></h2>
+                                                <h2 class="heading-title"><span class="style-color"><span> Công Nghệ
+                                                            Hiện Đại</span></span></h2>
                                             </div>
-                                            <div class="heading-section-description">Cutting-edge tools and software
-                                                streamline processes, enabling teams to deliver</div>
+                                            <div class="heading-section-description">Các công cụ và phần mềm tiên tiến
+                                                giúp đơn giản hóa quy trình, cho phép đội ngũ thực hiện</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1344,19 +1340,19 @@
                                 </div>
                                 <div class="elementor-element elementor-element-89efc34 e-transform elementor-widget elementor-widget-jkit_button"
                                     data-id="89efc34" data-element_type="widget"
-                                    data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;0.9&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+                                    data-settings="{"_transform_scale_effect_hover":{"unit":"px","size":"0.9","sizes":[]},"_transform_scale_effect_hover_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scale_effect_hover_mobile":{"unit":"px","size":"","sizes":[]}}"
                                     data-widget_type="jkit_button.default">
                                     <div class="elementor-widget-container">
                                         <div
                                             class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_8_9_67ee61c748ac9">
-                                            <a href="#" class="jkit-button-wrapper">Discover More</a>
+                                            <a href="#" class="jkit-button-wrapper">Khám Phá Thêm</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-ff02ed6 e-con-full e-flex e-con e-child"
                                 data-id="ff02ed6" data-element_type="container"
-                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                data-settings="{"background_background":"classic"}">
                                 <div class="elementor-element elementor-element-f15b146 elementor-widget elementor-widget-spacer"
                                     data-id="f15b146" data-element_type="widget" data-widget_type="spacer.default">
                                     <div class="elementor-widget-container">
@@ -1385,7 +1381,7 @@
                                         data-id="d55bce3" data-element_type="widget"
                                         data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h2 class="elementor-heading-title elementor-size-default">Play Video</h2>
+                                            <h2 class="elementor-heading-title elementor-size-default">Phát Video</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -1394,6 +1390,8 @@
                     </div>
                 </div>
             </div>
+
+            {{-- block discovery  --}}
             <div class="elementor-element elementor-element-4e98bd1 e-con-full e-flex e-con e-parent"
                 data-id="4e98bd1" data-element_type="container">
                 <div class="elementor-element elementor-element-4582390 e-flex e-con-boxed e-con e-child"
@@ -1404,14 +1402,14 @@
                             <div class="elementor-element elementor-element-19797dc elementor-widget elementor-widget-heading"
                                 data-id="19797dc" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h2 class="elementor-heading-title elementor-size-default">What We Do</h2>
+                                    <h2 class="elementor-heading-title elementor-size-default">Chúng Tôi Làm Gì</h2>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-ae6f575 elementor-widget elementor-widget-heading"
                                 data-id="ae6f575" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h2 class="elementor-heading-title elementor-size-default">Delivering Quality from
-                                        Start to Finish.</h2>
+                                    <h2 class="elementor-heading-title elementor-size-default">Mang Lại Chất Lượng Từ
+                                        Đầu Đến Cuối.</h2>
                                 </div>
                             </div>
                         </div>
@@ -1419,12 +1417,12 @@
                             data-id="7bf9399" data-element_type="container">
                             <div class="elementor-element elementor-element-30ed29d e-transform elementor-widget elementor-widget-jkit_button"
                                 data-id="30ed29d" data-element_type="widget"
-                                data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;0.9&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
+                                data-settings="{"_transform_scale_effect_hover":{"unit":"px","size":"0.9","sizes":[]},"_transform_scale_effect_hover_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scale_effect_hover_mobile":{"unit":"px","size":"","sizes":[]}}"
                                 data-widget_type="jkit_button.default">
                                 <div class="elementor-widget-container">
                                     <div
                                         class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_8_11_67ee61c749eb1">
-                                        <a href="#" class="jkit-button-wrapper">Brows All Services</a>
+                                        <a href="#" class="jkit-button-wrapper">Duyệt Tất Cả Dịch Vụ</a>
                                     </div>
                                 </div>
                             </div>
@@ -1447,25 +1445,24 @@
                                             <div class="icon-box icon-box-header elementor-animation-">
                                                 <div class="icon style-color"><img decoding="async" width="86"
                                                         height="85"
-                                                        src="wp-content/uploads/sites/65/2025/01/Icon-1.png"
+                                                        src="{{ asset('assets/wp-content/uploads/sites/65/2025/01/Icon-1.png') }}"
                                                         class="attachment-full size-full"
-                                                        alt="Renovation &amp; Remodeling"
-                                                        url="wp-content/uploads/sites/65/2025/01/Icon-1.png"
+                                                        alt="Cải Tạo & Nâng Cấp"
+                                                        url="{{ asset('assets/wp-content/uploads/sites/65/2025/01/Icon-1.png') }}"
                                                         source="library" /></div>
                                             </div>
                                             <div class="icon-box icon-box-body">
-                                                <h2 class="title">Renovation &amp; Remodeling</h2>
-                                                <p class="icon-box-description">Transforming spaces with precision and
-                                                    creativity to enhance functionality and style.</p>
+                                                <h2 class="title">Cải Tạo & Nâng Cấp</h2>
+                                                <p class="icon-box-description">Biến đổi không gian với sự chính xác và
+                                                    sáng tạo để nâng cao chức năng và phong cách.</p>
                                                 <div class="icon-box-button ">
                                                     <div class="btn-wrapper icon-position-before">
                                                         <a href="#" class="icon-box-link"
-                                                            aria-label="Learn More">Learn
-                                                            More</a>
+                                                            aria-label="Tìm Hiểu Thêm">Tìm Hiểu
+                                                            Thêm</a>
                                                     </div>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -1483,24 +1480,23 @@
                                             <div class="icon-box icon-box-header elementor-animation-">
                                                 <div class="icon style-color"><img loading="lazy" decoding="async"
                                                         width="86" height="85"
-                                                        src="wp-content/uploads/sites/65/2025/01/Icon-2.png"
-                                                        class="attachment-full size-full" alt="Sustainable Building"
-                                                        url="wp-content/uploads/sites/65/2025/01/Icon-2.png"
+                                                        src="{{ asset('assets/wp-content/uploads/sites/65/2025/01/Icon-2.png') }}"
+                                                        class="attachment-full size-full" alt="Xây Dựng Bền Vững"
+                                                        url="{{ asset('assets/wp-content/uploads/sites/65/2025/01/Icon-2.png') }}"
                                                         source="library" /></div>
                                             </div>
                                             <div class="icon-box icon-box-body">
-                                                <h2 class="title">Sustainable Building</h2>
-                                                <p class="icon-box-description">Implementing eco-friendly practices and
-                                                    materials to create sustainable structures.</p>
+                                                <h2 class="title">Xây Dựng Bền Vững</h2>
+                                                <p class="icon-box-description">Thực hiện các phương pháp thân thiện với
+                                                    môi trường và vật liệu để tạo ra các công trình bền vững.</p>
                                                 <div class="icon-box-button ">
                                                     <div class="btn-wrapper icon-position-before">
                                                         <a href="#" class="icon-box-link"
-                                                            aria-label="Learn More">Learn
-                                                            More</a>
+                                                            aria-label="Tìm Hiểu Thêm">Tìm Hiểu
+                                                            Thêm</a>
                                                     </div>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -1521,25 +1517,24 @@
                                             <div class="icon-box icon-box-header elementor-animation-">
                                                 <div class="icon style-color"><img loading="lazy" decoding="async"
                                                         width="87" height="85"
-                                                        src="wp-content/uploads/sites/65/2025/01/Icon-3.png"
+                                                        src="{{ asset('assets/wp-content/uploads/sites/65/2025/01/Icon-3.png') }}"
                                                         class="attachment-full size-full"
-                                                        alt="Construction Management"
-                                                        url="wp-content/uploads/sites/65/2025/01/Icon-3.png"
+                                                        alt="Quản Lý Xây Dựng"
+                                                        url="{{ asset('assets/wp-content/uploads/sites/65/2025/01/Icon-3.png') }}"
                                                         source="library" /></div>
                                             </div>
                                             <div class="icon-box icon-box-body">
-                                                <h2 class="title">Construction Management</h2>
-                                                <p class="icon-box-description">Ensuring seamless execution of your
-                                                    project with expert from planning to completion.</p>
+                                                <h2 class="title">Quản Lý Xây Dựng</h2>
+                                                <p class="icon-box-description">Đảm bảo thực hiện dự án của bạn một cách
+                                                    suôn sẻ với chuyên môn từ lập kế hoạch đến hoàn thiện.</p>
                                                 <div class="icon-box-button ">
                                                     <div class="btn-wrapper icon-position-before">
                                                         <a href="#" class="icon-box-link"
-                                                            aria-label="Learn More">Learn
-                                                            More</a>
+                                                            aria-label="Tìm Hiểu Thêm">Tìm Hiểu
+                                                            Thêm</a>
                                                     </div>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -1557,25 +1552,24 @@
                                             <div class="icon-box icon-box-header elementor-animation-">
                                                 <div class="icon style-color"><img loading="lazy" decoding="async"
                                                         width="87" height="85"
-                                                        src="wp-content/uploads/sites/65/2025/01/Icon-4.png"
+                                                        src="{{ asset('assets/wp-content/uploads/sites/65/2025/01/Icon-4.png') }}"
                                                         class="attachment-full size-full"
-                                                        alt="Residential Construction"
-                                                        url="wp-content/uploads/sites/65/2025/01/Icon-4.png"
+                                                        alt="Xây Dựng Nhà Ở"
+                                                        url="{{ asset('assets/wp-content/uploads/sites/65/2025/01/Icon-4.png') }}"
                                                         source="library" /></div>
                                             </div>
                                             <div class="icon-box icon-box-body">
-                                                <h2 class="title">Residential Construction</h2>
-                                                <p class="icon-box-description">Delivering custom-built homes that
-                                                    combine comfort, style, and functionality.</p>
+                                                <h2 class="title">Xây Dựng Nhà Ở</h2>
+                                                <p class="icon-box-description">Cung cấp những ngôi nhà được xây dựng tùy
+                                                    chỉnh kết hợp sự thoải mái, phong cách và chức năng.</p>
                                                 <div class="icon-box-button ">
                                                     <div class="btn-wrapper icon-position-before">
                                                         <a href="#" class="icon-box-link"
-                                                            aria-label="Learn More">Learn
-                                                            More</a>
+                                                            aria-label="Tìm Hiểu Thêm">Tìm Hiểu
+                                                            Thêm</a>
                                                     </div>
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -1584,6 +1578,8 @@
                     </div>
                 </div>
             </div>
+
+            {{-- block why us --}}
             <div class="elementor-element elementor-element-eb39d0a e-con-full e-flex e-con e-parent"
                 data-id="eb39d0a" data-element_type="container"
                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1599,24 +1595,21 @@
                                         data-id="3dce9c3" data-element_type="widget"
                                         data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h2 class="elementor-heading-title elementor-size-default">Why Us</h2>
+                                            <h2 class="elementor-heading-title elementor-size-default">Tại sao chọn chúng tôi</h2>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-46f66fa elementor-widget elementor-widget-heading"
                                         data-id="46f66fa" data-element_type="widget"
                                         data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
-                                            <h2 class="elementor-heading-title elementor-size-default">Exceptional
-                                                quality that can’t be beaten.</h2>
+                                            <h2 class="elementor-heading-title elementor-size-default">Chất lượng vượt trội.</h2>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-1f0d3d0 elementor-widget elementor-widget-text-editor"
                                         data-id="1f0d3d0" data-element_type="widget"
                                         data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>We take pride in delivering a level of quality that simply can&#8217;t be
-                                                surpassed. Our commitment to excellence is woven into the very fabric of
-                                                our work, and it&#8217;s what distinguishes us from the rest.</p>
+                                            <p>Chúng tôi tự hào khi cung cấp một mức chất lượng không thể vượt qua. Cam kết về sự xuất sắc của chúng tôi được đan xen vào chính kết cấu công việc của chúng tôi và đó là điều tạo nên sự khác biệt của chúng tôi so với những công ty khác.</p>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-33a4c56 e-transform elementor-widget elementor-widget-jkit_button"
@@ -1626,7 +1619,7 @@
                                         <div class="elementor-widget-container">
                                             <div
                                                 class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_8_16_67ee61c74cc0e">
-                                                <a href="#" class="jkit-button-wrapper">Learn More</a>
+                                                <a href="#" class="jkit-button-wrapper">Xem thêm</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1685,8 +1678,13 @@
                 <div class="elementor-element elementor-element-d5c29cc e-con-full e-flex e-con e-child"
                     data-id="d5c29cc" data-element_type="container">
                     <div class="elementor-element elementor-element-aae4ffa e-con-full e-flex e-con e-child"
-                        data-id="aae4ffa" data-element_type="container"
-                        data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/www.youtube.com\/watch?v=AJFkU1bC3C0&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
+                        data-id="aae4ffa" 
+                        data-element_type="container"
+                        data-settings='{
+                            "background_background": "video",
+                            "background_video_link": "https:\/\/www.youtube.com\/watch?v=AJFkU1bC3C0",
+                            "background_play_on_mobile": "yes"
+                        }'>
                         <div class="elementor-background-video-container">
                             <div class="elementor-background-video-embed"></div>
                         </div>
@@ -1704,11 +1702,7 @@
                                         data-id="25355e3" data-element_type="widget"
                                         data-widget_type="text-editor.default">
                                         <div class="elementor-widget-container">
-                                            <p>Our team of skilled professionals has collectively logged 10K hours of
-                                                dedication to our craft, ensuring that every detail is meticulously
-                                                executed. We&#8217;ve used over 1M tons of top-quality materials,
-                                                sourced responsibly, to construct enduring structures that stand the
-                                                test of time.</p>
+                                            <p>Đội ngũ chuyên gia lành nghề của chúng tôi đã cùng nhau ghi lại 10.000 giờ cống hiến cho nghề thủ công của mình, đảm bảo rằng mọi chi tiết đều được thực hiện tỉ mỉ. Chúng tôi đã sử dụng hơn 1 triệu tấn vật liệu chất lượng hàng đầu, có nguồn gốc có trách nhiệm, để xây dựng các công trình bền bỉ vượt qua thử thách của thời gian.</p>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-15a7766 elementor-widget elementor-widget-text-editor"
@@ -1830,6 +1824,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="elementor-element elementor-element-c98124a e-con-full e-flex e-con e-parent"
                 data-id="c98124a" data-element_type="container">
                 <div class="elementor-element elementor-element-c2cf4eb e-flex e-con-boxed e-con e-child"
@@ -1998,7 +1993,7 @@
                     </div>
                 </div>
             </div>
-            <div class="elementor-element elementor-element-6c8ad10 e-flex e-con-boxed e-con e-parent"
+            {{-- <div class="elementor-element elementor-element-6c8ad10 e-flex e-con-boxed e-con e-parent"
                 data-id="6c8ad10" data-element_type="container">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-a90f030 e-flex e-con-boxed e-con e-child"
@@ -2157,7 +2152,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
+
+            {{-- testimonals --}}
             <div class="elementor-element elementor-element-d5cb90c e-con-full e-flex e-con e-parent"
                 data-id="d5cb90c" data-element_type="container">
                 <div class="elementor-element elementor-element-2adb86a e-con-full e-flex e-con e-child"
@@ -2210,9 +2207,9 @@
                                                     <div class="bio-details">
                                                         <div class="profile-image"><img loading="lazy"
                                                                 decoding="async" width="1440" height="1440"
-                                                                src="wp-content/uploads/sites/65/2025/01/shot-of-a-confident-young-businesswoman-standing-against-a-grey-background-e1737480672274.jpg"
+                                                                src="{{ asset('assets/wp-content/uploads/sites/65/2025/01/shot-of-a-confident-young-businesswoman-standing-against-a-grey-background-e1737480672274.jpg') }}"
                                                                 class="source-library" alt="Sarah M."
-                                                                url="wp-content/uploads/sites/65/2025/01/shot-of-a-confident-young-businesswoman-standing-against-a-grey-background.jpg"
+                                                                url="{{ asset('assets/wp-content/uploads/sites/65/2025/01/shot-of-a-confident-young-businesswoman-standing-against-a-grey-background.jpg') }}"
                                                                 source="library" /></div>
                                                         <span class="profile-info">
                                                             <strong class="profile-name">Sarah M.</strong>
